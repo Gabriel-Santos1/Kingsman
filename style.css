@@ -16,7 +16,7 @@ a{
 header{
     background-color:#DEC8B4;
     display: flex;
-    gap: 30vh 60vh;
+    gap: 30vh 45vh;
     align-items: center;
 }
 
@@ -24,12 +24,14 @@ header{
     display: flex;
 }
 .logo{
+    margin-left: 30px;
 }
 
 .logo-Text{
     font-family: 'Montserrat';
     font-size: 25px;
     font-weight: 600;
+    margin-bottom: 25px;
 }
 .menu-text{
         font-family: Montserrat;
@@ -44,4 +46,67 @@ header{
 }
 body{
     
+    background-color:#BDB9B5;
+    border-bottom: 30px;
+}
+.ofertas{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 30px;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.borda{    
+        border-top: 1px solid black;
+        padding-bottom: 18px;
+}
+
+.produtos{
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    gap: 200px ;
+}
+
+.caixa_Prod1{
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 30px;
+    color: #fff;
+    background-color: #191717;
+    text-align: center;
+    height: 380px;
+    padding-top: 30px;    
+}
+footer{
+    display: flex;
+    margin-top: 120px;
+    margin-bottom: 90px;
+
+    background-color: #DEC8B4;
+    justify-content: space-between;
+}
+.credito{
+    font-family: 'Montserrat';  
+    font-size: 20px;
+    padding-top: 30px;
+    padding-right: 70px;
+    font-weight: 300;
+}
+.zap{
+    display: flex;
+    padding-top:15px;
+    padding-left: 10px;
+}
+.icones{
+    
+
+}
+.inst{
+    font-family: 'Montserrat';  
+    display: flex;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 7px;
 }
